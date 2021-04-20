@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {createTokenForReference} from '@angular/compiler/src/identifiers';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
